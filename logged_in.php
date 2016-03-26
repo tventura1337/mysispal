@@ -9,6 +9,16 @@
 	</head>
 	<body>
 
+		<?php
+			$userInput = ['account' => $_POST['user_email'], 'password' => $_POST['user_password'], 'phoneNumber' => $_POST['user_phone']];
+			json_encode( $userInput );
+			$myfile = fopen("test.json", "w");
+			fwrite($myfile, $userInput);
+			fclose($myfile);
+			exec("sudo python get_grades.py test.json");
+			unlink($myfile);
+		?>
+
     <article class="container box style3">
       <header>
         <h2>Welcome, <?php echo $_POST["user_name"]; ?>!</h2>
@@ -16,13 +26,13 @@
       <form method="post" action="logged_in.php" name="loginform">
         <div class="row 50%">
 					<label for="user_name">Name: </label>
-          <div class="3u 12u$(mobile)"><input type="text" class="text" name="user_name" placeholder="Email" value="<?php echo $_POST['user_name'];?>"/></div>
+          <div class="6u 12u$(mobile)"><input type="text" class="text" name="user_name" placeholder="Email" value="<?php echo $_POST['user_name'];?>"/></div><br>
 					<label for="user_email">Email: </label>
-          <div class="3u 12u$(mobile)"><input type="email" class="text" name="user_email" placeholder="Email" value="<?php echo $_POST['user_email'];?>"/></div>
+          <div class="6u 12u$(mobile)"><input type="email" class="text" name="user_email" placeholder="Email" value="<?php echo $_POST['user_email'];?>"/></div><br>
 					<label for="user_password">Password: </label>
-          <div class="3u 12u$(mobile)"><input type="password" class="text" name="user_password" placeholder="Password" value="<?php echo $_POST['user_password'];?>" /></div>
+          <div class="6u 12u$(mobile)"><input type="password" class="text" name="user_password" placeholder="Password" value="<?php echo $_POST['user_password'];?>" /></div><br>
 					<label for="user_phone">Phone Number: </label>
-          <div class="3u 12u$(mobile)"><input type="text" class="text" name="user_phone" placeholder="Phone Number" value="<?php echo $_POST['user_phone'];?>"/></div>
+          <div class="6u 12u$(mobile)"><input type="text" class="text" name="user_phone" placeholder="Phone Number" value="<?php echo $_POST['user_phone'];?>"/></div><br>
           <br>
           <div class="12u$">
             <ul class="actions">

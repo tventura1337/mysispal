@@ -39,25 +39,13 @@
 
 		<!-- Feature 1 -->
 			<article class="container box style1 right">
-				<a href="#" class="image fit"><img src="images/pic01.jpg" alt="" /></a>
+				<a href="#" class="image fit"><img src="images/mockup.png" alt="" /></a>
 				<div class="inner">
 					<header>
 						<h2>Receive automated reminders<br />
 						</h2>
 					</header>
 					<p>My SiS Pal can send you reminders for those classes you might have otherwise "forgot." </p>
-				</div>
-			</article>
-
-		<!-- Feature 2 -->
-			<article class="container box style1 left">
-				<a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
-				<div class="inner">
-					<header>
-						<h2>Information Sans Confusion<br />
-						</h2>
-					</header>
-					<p>Dealing with a clumsy interface will is now a thing of the past. My SiS Pal will remind you of your advisor, </p>
 				</div>
 			</article>
 
