@@ -90,7 +90,7 @@
 					<h2>Sign Up Today</h2>
 					<p>Stop settling for clumsy interfaces.<br> Bring the power of SiS into your inbox today.</p>
 				</header>
-				<form method="post" action="views/logged_in.php" name="registerform">
+				<form method="post" action="logged_in.php" name="registerform">
 					<div class="row 50%">
 						<div class="6u 12u$(mobile)"><input type="email" class="text" name="user_email" placeholder="Email" /></div>
 						<div class="6u$ 12u$(mobile)"><input type="text" class="text" name="user_name" placeholder="First Name" /></div>
