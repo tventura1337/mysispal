@@ -1,6 +1,21 @@
-<!-- if you need user information, just put them into the $_SESSION variable and output them here -->
-Hey, <?php echo $_SESSION['user_name']; ?>. You are logged in.
-Try to close this browser tab and open it again. Still logged in! ;)
+<html>
+	<head>
+		<title>Welcome, <?php echo $_POST["user_name"]?>!</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="css/main.css"/>
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	</head>
+	<body>
 
-<!-- because people were asking: "index.php?logout" is just my simplified form of "index.php?logout=true" -->
-<a href="index.php?logout">Logout</a>
+		<!-- Scripts -->
+			<script src="js/jquery.min.js"></script>
+			<script src="js/jquery.scrolly.min.js"></script>
+			<script src="js/jquery.poptrox.min.js"></script>
+			<script src="js/skel.min.js"></script>
+			<script src="js/util.js"></script>
+			<script src="js/main.js"></script>
+
+	</body>
+</html>
