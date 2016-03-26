@@ -65,7 +65,7 @@
 			<article class="container box style2">
 				<header>
 					<h2>And Much More...</h2>
-					<p>With dozens of available commands, the power of SiS is now available in your pocket.<br />
+					<p>With dozens of available commands, the power of SiS is now just a text away.<br />
 					</p>
 				</header>
 				<div class="inner gallery">
