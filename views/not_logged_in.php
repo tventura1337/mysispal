@@ -18,7 +18,7 @@
 			<section id="header">
 				<header>
 					<h1>My SiS Pal</h1>
-					<p>Bringing SiS to the student</p>
+					<p>Information Sans Irritation</p>
 				</header>
 				<footer>
 					<a href="#banner" class="button style2 scrolly-middle">Learn More</a>
