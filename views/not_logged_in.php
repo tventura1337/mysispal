@@ -45,7 +45,7 @@
 						<h2>Receive automated reminders<br />
 						</h2>
 					</header>
-					<p>My SiS Pal can send you reminders for those classes you might have otherwise "missed." We know you'll </p>
+					<p>My SiS Pal can send you reminders for those classes you might have otherwise "forgot." </p>
 				</div>
 			</article>
 
