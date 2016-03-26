@@ -3,7 +3,7 @@ import twilio.twiml
 
 app = Flask(__name__)
 
-@app.route("/", methods=['GET', 'POST'])
+@app.route("/", methods=['GET', 'POST'], host='0.0.0.0')
 def hello_monkey():
     """Respond to incoming requests."""
     resp = twilio.twiml.Response()
