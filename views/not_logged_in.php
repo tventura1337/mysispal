@@ -31,7 +31,7 @@
 					<h2>This is My Sis Pal</h2>
 				</header>
 				<p>A brand new way to access your grades, class schedule, and more.</p>
-				<p>All at your fingertips.</p> <br />
+				<p>All from just a text.</p> <br />
 				<footer>
 					<a href="#register" class="button style2 scrolly">Register Now</a>
 				</footer>
